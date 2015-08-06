@@ -23,7 +23,6 @@ public class Entity {
     }
 
     public Entity setRel(Entity entity) {
-        entity.childRels.add(this);
         rel = entity;
 
         return this;
